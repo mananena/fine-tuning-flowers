@@ -1,0 +1,15 @@
+{
+  "model": "mobilenetv3_small_100.lamb_in1k",
+  "lr": 0.0003,
+  "backbone_lr": 2.9999999999999997e-05,
+  "batch_size": 16,
+  "epochs": 6,
+  "freeze_epochs": 2,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "size": 160,
+  "device": "auto",
+  "data": "/home/runner/work/fine-tuning-flowers/fine-tuning-flowers/experiments/data/raw",
+  "runs": "/home/runner/work/fine-tuning-flowers/fine-tuning-flowers/experiments/runs",
+  "run_name": "mobile_lr0.0003"
+}

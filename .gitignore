@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+experiments/models/*.pt
+experiments/models/*.onnx
+experiments/runs/*/*.pt

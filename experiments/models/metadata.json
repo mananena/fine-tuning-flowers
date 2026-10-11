@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "daisy",
+    "roses",
+    "sunflowers"
+  ],
+  "preprocessing": {
+    "size": 160,
+    "crop_pct": 0.875,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "selected_run": "mobile_lr0.001",
+  "selected_by": "validation_accuracy"
+}

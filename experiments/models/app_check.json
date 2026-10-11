@@ -1,0 +1,10 @@
+{
+  "example": "7510285306_ba8f80c382_n.jpg",
+  "prediction": {
+    "daisy": 5.7040171668631956e-05,
+    "roses": 0.014044293202459812,
+    "sunflowers": 0.9858987331390381
+  },
+  "timing": "Инференс на CPU: 2.4 мс",
+  "interface_created": true
+}

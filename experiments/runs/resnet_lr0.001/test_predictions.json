@@ -1,0 +1,164 @@
+[
+  {
+    "path": "daisy/5109508979_68e3530791_m.jpg",
+    "label": 0,
+    "sha256": "c625405990c1bc35b541f67b4c94860c1472afe3ad9eec9dab8b8090304c5c64",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/2635314490_e12d3b0f36_m.jpg",
+    "label": 0,
+    "sha256": "67d2585f13236dc486e39821268ef8501c7a54d9c83a428690dc9aa908cafa86",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/7199968650_72afc16d31_m.jpg",
+    "label": 0,
+    "sha256": "4a20410448576c4574d4ed32104caac44c0ae3c41ba17e4038f09f536b12e7af",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/16482676953_5296227d40_n.jpg",
+    "label": 0,
+    "sha256": "d4e146e3ab19262445101e08c030810869497661cae2f3e06b2901ecc283ce98",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/2001380507_19488ff96a_n.jpg",
+    "label": 0,
+    "sha256": "606f5f24ac653a16cd99d581d1a92c3bd82ce59e4869a792e9fe86b568a5e8c6",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/2561371688_c80a4fe957_n.jpg",
+    "label": 0,
+    "sha256": "93f0a35863fe8ca861313ac715227d6287d0aaeb3cab7a40b326db99ec57d6ec",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/8063844363_db3f4dea85.jpg",
+    "label": 0,
+    "sha256": "ead849579218cfa0a303d746a1a9e5144116fde953e29ac88c699f46b88a2bd0",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/8740807508_0587f5b7b7.jpg",
+    "label": 0,
+    "sha256": "83be3e1f0dbb7958728317ac2abbac4ca500422394a21eac55a22927815a8d75",
+    "prediction": 0
+  },
+  {
+    "path": "daisy/4144275653_7c02d47d9b.jpg",
+    "label": 0,
+    "sha256": "e2d8bfa2a3d4d4287b5b23c844a401ddecaee2d9fb708b102a435b060d460390",
+    "prediction": 0
+  },
+  {
+    "path": "roses/3713368809_eba7fa2fbf_m.jpg",
+    "label": 1,
+    "sha256": "a40ef581053b585a8c25ecf8b1944b6884452e78cda0823046d7a486237143e2",
+    "prediction": 1
+  },
+  {
+    "path": "roses/3074406590_91c697c805_n.jpg",
+    "label": 1,
+    "sha256": "a517b41a9d19f5e4b8d8df1b6d427361dd6a4ed65d492e555b7be9444c844463",
+    "prediction": 1
+  },
+  {
+    "path": "roses/110472418_87b6a3aa98_m.jpg",
+    "label": 1,
+    "sha256": "dc870f042144ad9cfd053a7e4e6378bf1bc8d689fbee03769855162e71e9c080",
+    "prediction": 1
+  },
+  {
+    "path": "roses/7147367479_f7a6ef0798.jpg",
+    "label": 1,
+    "sha256": "ae09fb0cf0fab4e7d1afa84d4a081f8674b96947ff4eed2d4691369608238164",
+    "prediction": 1
+  },
+  {
+    "path": "roses/9300754115_dd79670066_n.jpg",
+    "label": 1,
+    "sha256": "ef4eaa369e865fdf1bddc88a6c13e836fc9ad1ecf7ce59c6f9658ed8fe4c0b5d",
+    "prediction": 2
+  },
+  {
+    "path": "roses/17449165090_dfb27af360_n.jpg",
+    "label": 1,
+    "sha256": "1504410941a2148ea51d779844defdefb4f2cbaf24c41bf6383b0797109b6edc",
+    "prediction": 1
+  },
+  {
+    "path": "roses/6969041818_a505baa68e_m.jpg",
+    "label": 1,
+    "sha256": "045402750a2849b413de95f63ac4142c0f10bab0747144c57c6609b67b9d2926",
+    "prediction": 1
+  },
+  {
+    "path": "roses/5402157745_a384f0583d_n.jpg",
+    "label": 1,
+    "sha256": "809193ce3de04009fab7900e2e48ca4893181aed8fc125aa2ffcc2eab606c3fe",
+    "prediction": 1
+  },
+  {
+    "path": "roses/1831404161_d2df86fd70.jpg",
+    "label": 1,
+    "sha256": "de7fd2c87c743d696f0e7dca62fd7d5cdf1beaf978f52142ac23a2431b3a5ecf",
+    "prediction": 1
+  },
+  {
+    "path": "sunflowers/5069564563_ae03792c3c_m.jpg",
+    "label": 2,
+    "sha256": "c89c250280fcf45d1e995bce345d0c95cceb11c0a0ac863a892e0e400313476b",
+    "prediction": 2
+  },
+  {
+    "path": "sunflowers/9511172241_8aee411e2e.jpg",
+    "label": 2,
+    "sha256": "1094f2d10e6d1d578db6746ad2c2c61ed7d6eb1a5b5cd241da028147d793c08f",
+    "prediction": 2
+  },
+  {
+    "path": "sunflowers/20704967595_a9c9b8d431.jpg",
+    "label": 2,
+    "sha256": "2353aa9a7f7c23126432b5752f65aa5ebe7af6cc0b006304d6c760d0a3d29f07",
+    "prediction": 2
+  },
+  {
+    "path": "sunflowers/9240129413_f240ce7866_n.jpg",
+    "label": 2,
+    "sha256": "a8125b582d70114210b1fb98aeaedc9972b118d6437f42a753c909fc1cc7a61c",
+    "prediction": 2
+  },
+  {
+    "path": "sunflowers/14678298676_6db8831ee6_m.jpg",
+    "label": 2,
+    "sha256": "1718d059c49c9a9cc02083948056896570512f7dd0a7c6c6a863edf59c3d99c8",
+    "prediction": 0
+  },
+  {
+    "path": "sunflowers/20972862281_5367f4af88.jpg",
+    "label": 2,
+    "sha256": "c697647885f8947fcbef8bad00c9c46a457dc9226d2ddad697dab6567de5f77b",
+    "prediction": 2
+  },
+  {
+    "path": "sunflowers/2443921986_d4582c123a.jpg",
+    "label": 2,
+    "sha256": "edcba1b5303f1b5ecc98e5beebe3dda4160ae9427f07abf31edff08dc852eef6",
+    "prediction": 0
+  },
+  {
+    "path": "sunflowers/4814106562_7c3564d2d9_n.jpg",
+    "label": 2,
+    "sha256": "6e477e4390014bb9d11b2e916d5c5b14e325e15be9bfb7e3d3d2a3be40c13026",
+    "prediction": 1
+  },
+  {
+    "path": "sunflowers/15683877266_42e0fe3782_n.jpg",
+    "label": 2,
+    "sha256": "893bc279c366c712e63053df9e5f17126e08bb68d4fe000597506ed470dcf605",
+    "prediction": 2
+  }
+]
