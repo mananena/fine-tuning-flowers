@@ -1,0 +1,49 @@
+name: Run laboratory experiments
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - project_bundle.zip
+      - .github/workflows/run_lab.yml
+permissions:
+  contents: write
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      OMP_NUM_THREADS: '4'
+      CUBLAS_WORKSPACE_CONFIG: ':4096:8'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unpack prepared project
+        run: python -c "import zipfile; zipfile.ZipFile('project_bundle.zip').extractall('.')"
+      - name: Install environment
+        run: |
+          python -m pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt nbconvert ipykernel
+      - name: Execute notebook and export best model
+        run: |
+          python -m ipykernel install --user --name python3
+          jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 experiments/notebooks/experiments.ipynb
+          python -m experiments.write_report
+      - name: Save checkpoints and complete artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: laboratory-results
+          path: |
+            experiments/runs/
+            experiments/models/
+            experiments/notebooks/
+            experiments/reports/
+      - name: Publish completed project
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md requirements.txt app experiments .gitignore
+          git add -f experiments/models/best.onnx
+          git commit -m 'Add executed experiments, metrics and verified ONNX model'
+          git push
